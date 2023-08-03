@@ -33,3 +33,24 @@ h2 {
     max-width:80%;
     max-height:80%;
   }
+
+  menu,
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+    margin: auto 
+  }
+  
+  li {
+    flex-grow: 1;
+  }
+  
+  button {
+    width: 90%;
+    min-height: 30px;
+    margin-bottom: 8px;
+    font-size: x-large;
+  }
