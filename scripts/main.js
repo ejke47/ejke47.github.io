@@ -1,5 +1,5 @@
 
-let myButton = document.querySelector("button");
+let myButton = document.getElementById("user");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {
