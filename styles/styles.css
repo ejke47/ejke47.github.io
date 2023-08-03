@@ -1,22 +1,13 @@
 html {
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     background-color: #00539f;
-
 }
 
 h1 {
     font-size: 60px;
     text-align: center;
     margin: 2px;
-
-  }
-
-  
-h2 {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 1px;
   }
 
   body {
@@ -54,3 +45,20 @@ h2 {
     margin-bottom: 8px;
     font-size: x-large;
   }
+
+.dicebox {
+padding-top: 20px;
+text-align: center;
+margin: auto;
+}
+
+section {
+  font-size: 100px;
+  display: inline
+  
+}
+
+p {
+font-size: 32px;
+
+}
