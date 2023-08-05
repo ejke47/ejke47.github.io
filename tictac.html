@@ -7,14 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <title>Dice - ejke47</title>
+    <title>TicTacToe - ejke47</title>
   </head>
+
   <body>
-    <h1>Try to Win!</h1>
+
     <menu>
-      <li>    <button onclick="location.href='index.html'">Home</button></li>
+      <li> <button onclick="location.href='index.html'">Home</button></li>
+      <li> <button id="newgame">New Game</button></li>
     </menu>
 
+<h2 id="turn"></h2>
+<div id="tactoe" class="gamewindow">
+<button class="toebox" id="0"></button>
+<button class="toebox" id="1"></button>
+<button class="toebox" id="2"></button>
+<button class="toebox" id="3"></button>
+<button class="toebox" id="4"></button>
+<button class="toebox" id="5"></button>
+<button class="toebox" id="6"></button>
+<button class="toebox" id="7"></button>
+<button class="toebox" id="8"></button>
+
+</div>
     <script src="scripts/tictac.js"></script> 
+
   </body>
   </html>
